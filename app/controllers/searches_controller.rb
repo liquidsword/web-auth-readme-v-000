@@ -3,7 +3,7 @@ class SearchesController < ApplicationController
   end
 
   def foursquare
-
+    #had to create an .env file in the main folder so I can use client_id and client_secret
     client_id = ENV['FOURSQUARE_CLIENT_ID']
     client_secret = ENV['FOURSQUARE_SECRET']
 
